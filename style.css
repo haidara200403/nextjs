@@ -1,0 +1,130 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #eee;
+}
+
+/* Main styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.latest-news,
+.latest-blog-posts {
+  flex-basis: 48%;
+}
+
+.latest-news {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.latest-news h2,
+.latest-blog-posts h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.latest-news article {
+  margin-bottom: 20px;
+}
+
+.latest-news article h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.latest-news article p {
+  margin-bottom: 10px;
+}
+
+.latest-blog-posts {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.latest-blog-posts article {
+  margin-bottom: 20px;
+}
+
+.latest-blog-posts article h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.latest-blog-posts article p {
+  margin-bottom: 10px;
+}
+
+.latest-blog-posts article .author,
+.latest-blog-posts article .date {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
